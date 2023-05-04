@@ -1,0 +1,148 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing:border-box;
+    overflow-x: hidden;
+}
+
+.links{
+    padding-top: 20px;
+    text-align: center;
+    color:white;
+    text-decoration: none;
+}
+
+.links a{
+    text-decoration: none;
+    color:white;
+    transition: color 0.5s linear;
+}
+
+.links a:hover{
+    color:purple;
+}
+
+.headerr{
+    border-bottom: 2px solid white;
+    height: 8vh;
+}
+body{
+  
+    background-color:rgba(29,29,29,255);
+}
+
+.principal{
+    margin: 0;
+    padding: 0;
+    padding-bottom: 50px;
+    width: 100;
+    height: 50vw;
+    background-repeat: no-repeat;
+    background-size: contain;
+    object-fit: cover;
+}
+
+.principal img{
+    width: 100%;
+    height: 100%;
+}
+
+.titulo{
+    text-align: center;
+    padding-top:25px;
+    padding-bottom: 25px;
+}
+
+.albumes{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    margin-left: 25px;
+    margin-right: 25px;
+    padding-left: 5px;
+    padding-right: 5px;
+    background-color: rgba(29,29,29,255)!important;
+}
+
+.albumes h3{
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+
+.albumes button{    
+    background-color:  rgba(76,72,96,255);
+    width: 60%;
+    height: 50px;
+    border-radius: 10px;
+    color:white;
+    transition: background-color 0.5s linear;
+}
+
+h1,h2,h3,h4,h5{
+    overflow-y: hidden;
+    color:white;
+}
+
+.albumes button:hover{
+    background-color: green;
+}
+
+.album{
+    text-align: center;
+}
+
+.album img{
+    object-fit: contain;
+    height: 300px;
+    width: 300px;
+}
+
+.integrantes{
+    margin-left: 25px;
+    margin-right: 25px;
+    text-align: center;
+    color:white;
+    background-color:rgba(29,29,29,255);
+    padding-top: 50px;
+}
+
+.integrantes h5{
+    padding-top: 25px;
+}
+
+.integrantes img{
+    width: 100%;
+    height: 100%;
+}
+
+.row{
+    background-color:rgba(29,29,29,255);
+}
+
+.Novedad{
+    padding-top:100px;
+    padding-bottom:100px;
+    text-align: center;
+}
+
+.vid{
+    padding-top: 40px;
+}
+
+.footer{
+    border-top: 2px solid white;
+    padding-top: 15px;
+    background-color:rgba(29,29,29,255);
+    text-align: center;
+    justify-content: space-between;
+    color:white;
+}
+
+.footer a{
+    color:white;
+    transition: color 0.5s linear;
+}
+
+.footer a:hover{
+    color:purple;
+}
